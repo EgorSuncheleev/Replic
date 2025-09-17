@@ -13,6 +13,13 @@
   align-items: start;
 }
 
+.footer__nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: 115px;
+}
+
 .footer-content-logo {
   display: flex;
   flex-direction: column;
