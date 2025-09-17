@@ -1,0 +1,140 @@
+.section__new {
+  background-image: url("/image/attach.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  margin-top: 70px;
+  color: #f4f6f5;
+  margin-bottom: 70px;
+}
+
+.section__new-content-title {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-top: 70px;
+  padding-bottom: 20px;
+  gap: 20px;
+  width: 540px;
+}
+
+.section__new-content-title-picture {
+  width: 80px;
+  height: 80px;
+}
+
+.section__new-content-title-text {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.section__new-content-description {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 540px;
+}
+
+.section__new-content-description-text {
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.section__new-content-button {
+  background-color: #eedb6d;
+  padding: 20px 60px;
+  color: #2c2d35;
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  margin-bottom: 70px;
+  margin-top: 60px;
+}
+
+@media screen and (max-width: 1200px) {
+  .section__new {
+    height: 502px;
+  }
+
+  .section__new-content-title-picture {
+    width: 60px;
+    height: 60px;
+  }
+
+  .section__new-content-title-text {
+    font-size: 30px;
+  }
+
+  .section__new-content-description {
+    width: 100%;
+  }
+
+  .section__new-content-button {
+    margin-top: 30px;
+    border-bottom: 70px;
+    padding: 18px 36px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section__new {
+    height: 410px;
+  }
+
+  .section__new-content-title {
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+
+    .section__new-content-title-picture {
+    width: 50px;
+    height: 50px;
+  }
+
+    .section__new-content-title-text {
+    font-size: 24px;
+    width: 261px;
+    font-weight: 500;
+  }
+
+  .section__new-content-description {
+    gap: 16px;
+    font-size: 16px;
+  }
+
+    .section__new-content-button {
+    margin-top: 20px;
+    border-bottom: 50px;
+    padding: 13px 35px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  
+  .section__new-content-title {
+    width: 290px;
+  }
+
+  .section__new-content-title-text {
+    font-size: 24px;
+  }
+
+  .section__new-content-description-text {
+    font-size: 16px;
+  }
+
+  .section__new {
+    height: 552px;
+  }
+
+  .section__new-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section__new-content-button {
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+}
