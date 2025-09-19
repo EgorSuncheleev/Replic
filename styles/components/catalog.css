@@ -39,7 +39,7 @@
 }
 
 .card__img {
-  width: 310px;
+  width: 100%;
 }
 
 .card__description-picture {
@@ -94,7 +94,7 @@
   }
 
   .card__img {
-    width: 290px;
+    width: 100%;
   }
 
   .section__catalog-card {
@@ -128,7 +128,7 @@
   }
 
   .card__img {
-    width: 200px;
+    width: 100%;
   }
 
   .card__author {
@@ -175,8 +175,7 @@
   }
 
   .card__img {
-    width: 250px;
-    height: 250px;
+    width: 100%;
     object-fit: cover;
   }
 }
